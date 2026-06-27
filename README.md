@@ -1,1 +1,312 @@
-# week21
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virgil Vedhamalar | Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="header">
+
+    <a href="#" class="logo">Virgil.</a>
+
+    <nav class="navbar">
+
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+    <div id="menu-icon">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+</header>
+
+<!-- ================= HERO ================= -->
+
+<section class="home" id="home">
+
+    <div class="home-content">
+
+        <h3>Hello, I'm</h3>
+
+        <h1>Virgil Vedhamalar</h1>
+
+        <h3>Computer Science Engineering Student</h3>
+
+        <p>
+            Passionate about Web Development, Python, Artificial Intelligence,
+            UI/UX Design and creating responsive modern websites.
+        </p>
+
+        <div class="buttons">
+
+            <a href="#" class="btn">
+                Download Resume
+            </a>
+
+            <a href="#contact" class="btn btn-outline">
+                Hire Me
+            </a>
+
+        </div>
+
+        <div class="social-media">
+
+            <a href="#"><i class="fab fa-github"></i></a>
+
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+
+            <a href="#"><i class="fab fa-instagram"></i></a>
+
+            <a href="#"><i class="fas fa-envelope"></i></a>
+
+        </div>
+
+    </div>
+
+    <div class="home-image">
+
+        <img src=""D:\Desktop\sairam\images\profile2.jpg"" alt="Virgil Vedhamalar">
+
+    </div>
+
+</section>
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about" id="about">
+
+    <div class="about-image">
+
+        <img src="D:\Desktop\sairam\images\profile.jpg" alt="About">
+
+    </div>
+
+    <div class="about-content">
+
+        <h2>About Me</h2>
+
+        <p>
+
+            I'm a Computer Science Engineering student who enjoys building
+            responsive websites and learning new technologies.
+            I have experience with HTML, CSS, JavaScript, Python,
+            C Programming and UI/UX Design.
+
+        </p>
+
+        <p>
+
+            My goal is to become a Full Stack Developer while continuously
+            improving my programming, design and problem-solving skills.
+
+        </p>
+
+        <a href="#" class="btn">
+
+            Read More
+
+        </a>
+
+    </div>
+
+</section>
+
+<!-- ================= SKILLS ================= -->
+
+<section class="skills" id="skills">
+
+    <h2 class="heading">
+
+        My Skills
+
+    </h2>
+
+    <div class="skills-container">
+
+        <div class="skill-box">
+            <i class="fab fa-html5"></i>
+            <h3>HTML5</h3>
+        </div>
+
+        <div class="skill-box">
+            <i class="fab fa-css3-alt"></i>
+            <h3>CSS3</h3>
+        </div>
+
+        <div class="skill-box">
+            <i class="fab fa-js-square"></i>
+            <h3>JavaScript</h3>
+        </div>
+
+        <div class="skill-box">
+            <i class="fab fa-python"></i>
+            <h3>Python</h3>
+        </div>
+
+        <div class="skill-box">
+            <i class="fas fa-code"></i>
+            <h3>C Programming</h3>
+        </div>
+
+        <div class="skill-box">
+            <i class="fab fa-github"></i>
+            <h3>Git & GitHub</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= PROJECTS ================= -->
+
+<section class="projects" id="projects">
+
+<h2 class="heading">
+
+Projects
+
+</h2>
+
+<div class="projects-container">
+
+<div class="project-card">
+
+    <h3>Personal Portfolio Website</h3>
+
+    <p>
+        A responsive personal portfolio website built using HTML, CSS, and JavaScript.
+        It showcases my skills, projects, and contact information with a modern design.
+    </p>
+
+    <a href="https://virgilvedhamalar.github.io/task1/"
+       target="_blank"
+       class="btn">
+        View on GitHub
+    </a>
+
+</div>
+<div class="project-card">
+
+    <h3>Calculator</h3>
+
+    <p>
+        A simple calculator that performs basic arithmetic operations using JavaScript.
+    </p>
+
+    <a href="https://virgilvedhamalar.github.io/Calculator/"
+       target="_blank"
+       class="btn">
+        View on GitHub
+    </a>
+
+</div>
+
+<div class="project-card">
+
+    <h3>Login Authentication System</h3>
+
+    <p>
+        A responsive login and registration page with form validation using HTML, CSS, and JavaScript.
+    </p>
+
+    <a href="https://virgilvedhamalar.github.io/task2a/"
+       target="_blank"
+       class="btn">
+        View on GitHub
+    </a>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact" id="contact">
+
+<h2 class="heading">
+
+Contact Me
+
+</h2>
+
+<form id="contactForm">
+
+<input
+type="text"
+id="name"
+placeholder="Your Name"
+required>
+
+<input
+type="email"
+id="email"
+placeholder="Your Email"
+required>
+
+<input
+type="text"
+placeholder="Subject">
+
+<textarea
+id="message"
+rows="7"
+placeholder="Your Message"
+required></textarea>
+
+<button type="submit" class="btn">
+
+Send Message
+
+</button>
+
+</form>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+<p>
+
+© 2026 Virgil Vedhamalar | All Rights Reserved
+
+</p>
+
+</footer>
+
+<!-- Back To Top -->
+
+<button id="topBtn">
+
+<i class="fas fa-arrow-up"></i>
+
+</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
